@@ -1,0 +1,55 @@
+{:uriI"Ñfile://app/assets/stylesheets/package.json?type=application/json&id=8bb44f9212f928e3342fba585e061ba40e90ed89ed9d974376c37f542337eee2:ET:load_pathI"app/assets/stylesheets;T:filenameI"(app/assets/stylesheets/package.json;T:	nameI"package;T:logical_pathI"package.json;T:content_typeI"application/json;T:sourceI"{
+    "title": "Grayscale",
+    "name": "startbootstrap-grayscale",
+    "version": "5.0.8",
+    "scripts": {
+        "start": "node_modules/.bin/gulp watch"
+    },
+    "description": "A grayscale one page HTML theme for Bootstrap.",
+    "keywords": [
+        "css",
+        "sass",
+        "html",
+        "responsive",
+        "theme",
+        "template"
+    ],
+    "homepage": "https://startbootstrap.com/template-overviews/grayscale",
+    "bugs": {
+        "url": "https://github.com/BlackrockDigital/startbootstrap-grayscale/issues",
+        "email": "feedback@startbootstrap.com"
+    },
+    "license": "MIT",
+    "author": "Start Bootstrap",
+    "contributors": [
+        "David Miller (http://davidmiller.io/)"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/BlackrockDigital/startbootstrap-grayscale.git"
+    },
+    "dependencies": {
+        "@fortawesome/fontawesome-free": "5.9.0",
+        "bootstrap": "4.3.1",
+        "jquery": "3.4.1",
+        "jquery.easing": "^1.4.1"
+    },
+    "devDependencies": {
+        "browser-sync": "2.26.7",
+        "del": "4.1.1",
+        "gulp": "4.0.2",
+        "gulp-autoprefixer": "6.1.0",
+        "gulp-clean-css": "4.2.0",
+        "gulp-header": "2.0.7",
+        "gulp-plumber": "^1.2.1",
+        "gulp-rename": "1.4.0",
+        "gulp-sass": "4.0.2",
+        "gulp-uglify": "3.0.2",
+        "merge-stream": "2.0.0"
+    }
+}
+;T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"@processors:type=application/json&file_type=application/json;TTI"6file-digest://app/assets/stylesheets/package.json;TTF:charsetI"
+utf-8;F:digest"%{©k◊n8˛"jÚ≠åxz/ΩΩÕ÷3åÃÿ :lengthi:dependencies_digest"%Ô√I7:kUÀÚl©{ÑêGK≠ÃpÙga0∑1âsœ:idI"E8bb44f9212f928e3342fba585e061ba40e90ed89ed9d974376c37f542337eee2;F:
+mtimel+˜õ]

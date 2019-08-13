@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Gossip</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/grayscale.min.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">Accueil</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+           <p class="nav-link js-scroll-trigger">  <%= link_to "creer un nouveau potin", new_gossip_path%> </p>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <header class="masthead">
+    <div class="container d-flex h-100 align-items-center">
+      <div class="mx-auto text-center">
+        <h1 class="mx-auto my-0 text-uppercase">Bienvenue</h1>
+        <h2 class="text-white-50 mx-auto mt-2 mb-5">Voici notre super site de potin.</h2>
+        <a href="#potin" class="btn btn-primary js-scroll-trigger">Listes des potins</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="about-section text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h2 class="text-white mb-4">créer le 07 aout 2019</h2>
+          <p class="text-white-50">Project by Fina & Anto
+            <a href="https://github.com/">the GitHub pages</a>. Project Gossip</p>
+        </div>
+      </div>
+      
+    </div>
+  </section>
+
+  
+  
+  <!-- Signup Section -->
+  <section id="signup" class="signup-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-10 col-lg-8 mx-auto text-center">
+
+          <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
+          <h2 class="text-white mb-5">Abonnez-vous pour recevoir des mises à jour!</h2>
+
+          <form class="form-inline d-flex">
+            <input type="email" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputEmail" placeholder="Entrer votre e-mail ...">
+            <button type="submit" class="btn btn-primary mx-auto">Envoyer</button>
+          </form>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact-section bg-black">
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-md-4 mb-3 mb-md-0">
+          <div class="card py-4 h-100">
+            <div class="card-body text-center">
+              <i class="fas fa-map-marked-alt text-primary mb-2"></i>
+              <h4 class="text-uppercase m-0">Address</h4>
+              <hr class="my-4">
+              <div class="small text-black-50">Antananarivo, MADAGASCAR</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-3 mb-md-0">
+          <div class="card py-4 h-100">
+            <div class="card-body text-center">
+              <i class="fas fa-envelope text-primary mb-2"></i>
+              <h4 class="text-uppercase m-0">Email</h4>
+              <hr class="my-4">
+              <div class="small text-black-50">
+                <a href="#">hello@yourdomain.com</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-3 mb-md-0">
+          <div class="card py-4 h-100">
+            <div class="card-body text-center">
+              <i class="fas fa-mobile-alt text-primary mb-2"></i>
+              <h4 class="text-uppercase m-0">Phone</h4>
+              <hr class="my-4">
+              <div class="small text-black-50">+1 (261) 3xxxxxxxx</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="social d-flex justify-content-center">
+        <a href="#" class="mx-2">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="#" class="mx-2">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="#" class="mx-2">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Potin Section -->
+  <section id="potin" class="potin-section text-center">
+    <div class="card">
+      <div class="card-body" style="background-color: #1098E5;">
+      <h1 style="text-align: center;">BIENVENUE!</h1>
+      <h2 style="text-align: center;"> Ici c'est notre super site de potins, il est chouette, non ?</h2>
+      </div>
+    </div>
+
+
+
+  
+
+    <div class="card">
+      <div class="card-body">
+        <h3> Voici la listes des Gossips: </h3>
+      </div>
+    </div>
+
+   <%=  @gossip.each_with_index do |gossip, index|%>
+   <div class="card text-center">
+   <div class="card-header" style="background-color: #048CAB;">
+    Potin N° <%=index + 1%>
+   </div>
+   <div class="card-body" style="background-color: #AAAEB0;">
+    <h3 class="card-title"><%= gossip.user.first_name %></h3>
+    <h2 class="card-text"><%= gossip.title %></h2>
+    <p  class="btn btn-primary" style="background-color: #2B2F2F;"> <%= link_to "Afficher le potin", gossip_path(gossip.id)%> </p>
+    <p  class="btn btn-primary" style="background-color: #2B2F2F;"> <%= link_to 'Edit', edit_gossip_path(gossip) %> </p>
+    <p  class="btn btn-primary" style="background-color: #2B2F2F;"> <%= link_to 'Delete', 
+             gossip_path(gossip), 
+                         method: :delete, 
+                         data: { confirm: 'Are you sure?' } %> 
+   </div>
+   <div class="card-footer text-muted" style="background-color: #4E5554;">
+    crée le <%= gossip.created_at%>
+   </div>
+   </div>
+   <h3> _ </h3>
+   <% end %>
+  </section>
+      
+  
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/grayscale.min.js"></script>
+
+
+  <svg id='squiggle-svg' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'>
+    <path fill='none' stroke='#18b8be' stroke-width='1' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/>
+  </svg>
+
+
+
+
+
+</body>
+
+</html>
